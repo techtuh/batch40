@@ -12,7 +12,7 @@ public class MasterPageFactory {
 		
 	}
 
-	@FindBy(xpath="//*[text()=' Signup / Login']")
+	@FindBy(xpath="//*[@class='fa fa-lock']")
 	private WebElement login_btn_homepage;
 	
 	
