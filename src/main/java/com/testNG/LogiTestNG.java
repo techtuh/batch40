@@ -9,5 +9,7 @@ public class LogiTestNG {
 		
 		System.out.println("this is testNg");
 
+		int x = 5;
+
 	}
 }
