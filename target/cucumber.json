@@ -1,0 +1,154 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-07T15:16:25.389Z",
+        "line": 8,
+        "name": "Title of your scenario(As a user, I want to login with valid credentials, so that I can use the website)",
+        "description": "",
+        "id": "automationexercise-login-testing;title-of-your-scenario(as-a-user--i-want-to-login-with-valid-credentials--so-that-i-can-use-the-website)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open browser",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "pass the url",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.pass_the_url(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://www.automationexercise.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on login/signup button in the homepage",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.click_on_login_signup_button_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the email address in email field",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.enter_the_email_address_in_email_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rezwanislam857@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter the password in password field",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.enter_the_password_in_password_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Boston2023"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on login button on the login page",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.click_on_login_button_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I validate the outcomes(Validate Login is successful)",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.i_validate_the_outcomes_validate_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2996500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "check more outcomes",
+            "match": {
+              "location": "com.cucumber.LoginStepdef.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Automationexercise login testing",
+    "description": "  I want to use this template for my feature file",
+    "id": "automationexercise-login-testing",
+    "keyword": "Feature",
+    "uri": "file:Login_page.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

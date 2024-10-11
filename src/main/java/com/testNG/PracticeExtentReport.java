@@ -71,6 +71,7 @@ public class PracticeExtentReport {
 		PracticeExtentReport obj = new PracticeExtentReport();
 		obj.getSetup();
 		
+		
 	}
 
 }
